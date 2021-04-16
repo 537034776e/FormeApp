@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rettangolo.aspx.cs" Inherits="FormeApp.Rettangolo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div runat="server" style="padding-top:10px">
-                        <h2 style="text-align:center;font-size:20px">Calcolo dell'area e del perimetro del triangolo</h2>
+                        <h2 style="text-align:center;font-size:20px">Calcolo dell'area e del perimetro del rettangolo</h2>
     <table><tr style="line-height:3"><td style="font-size:20px;">Inserire il lato del rettangolo: </td>
         <td>
     <asp:TextBox Height="23px" runat="server" ID="txtLatoRettangolo"></asp:TextBox></td></tr>

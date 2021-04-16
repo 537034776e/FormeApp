@@ -18,7 +18,7 @@ namespace FormeApp
 
         public double Area(double lato,double altezza)
         {
-            double area = lato * altezza;
+            double area = (lato * altezza)/2;
             return area;
         }
 
