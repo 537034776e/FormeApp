@@ -27,7 +27,7 @@ namespace FormeApp
 
         public double Area(double raggio)
         {
-            double area = 3.14*raggio*raggio;
+            double area = 3.14*Math.Pow(raggio,2);
             return area;
         }
 
