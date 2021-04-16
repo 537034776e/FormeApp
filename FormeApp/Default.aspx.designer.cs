@@ -11,7 +11,7 @@ namespace FormeApp
 {
 
 
-    public partial class PaginaIniziale
+    public partial class Default
     {
 
         /// <summary>

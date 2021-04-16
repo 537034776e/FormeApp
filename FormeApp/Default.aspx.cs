@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FormeApp
 {
-    public partial class PaginaIniziale : System.Web.UI.Page
+    public partial class Default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
