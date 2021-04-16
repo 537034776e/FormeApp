@@ -60,7 +60,7 @@ namespace FormeApp
 
         protected void btnIndietro_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PaginaIniziale.aspx");
+            Response.Redirect("Default.aspx");
 
         }
     }

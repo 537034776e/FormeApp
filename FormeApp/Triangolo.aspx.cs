@@ -13,39 +13,7 @@ namespace FormeApp
         {
 
         }
-        public double lato;
-        public double altezza;
-
-        public double Area(double lato,double altezza)
-        {
-            double area = (lato * altezza)/2;
-            return area;
-        }
-
-        public double Perimetro(double lato, double altezza)
-        {
-            double perimetro = lato * 3;
-            return perimetro;
-        }
-
-        protected void btnCalcola_Click(object sender, EventArgs e)
-        {
-            Triangolo t = new Triangolo();
-            lato = Convert.ToDouble(txtLatoTriangolo.Text);
-            altezza = Convert.ToDouble(txtAltezzaTriangolo.Text);
-            if(lato<0 || altezza < 0)
-            {
-                    ScriptManager.RegisterStartupScript(this, this.GetType(), "err", "alert('I valori non possono essere negativi o sono mancanti')", true);
-            }
-            else { 
-            double area = t.Area(lato,altezza);
-            double perimetro = t.Perimetro(lato, altezza);
-
-            lblCalcolo.Text = "L'area e il perimetro del triangolo sono: " + area + " e " + perimetro;
-            lblDimensioni.Text = "Il lato e l'altezza del triangolo sono: " + txtLatoTriangolo.Text + " e " + txtAltezzaTriangolo.Text;
-            }
-        }
-
+ 
         double Forma.Perimetro()
         {
             throw new NotImplementedException();
@@ -58,7 +26,25 @@ namespace FormeApp
 
         protected void btnIndietro_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PaginaIniziale.aspx");
+            Response.Redirect("Default.aspx");
         }
+
+        protected void btnEquilatero_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TriangoloEquilatero.aspx");
+        }
+
+        protected void btnIsoscele_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TriangoloIsoscele.aspx");
+
+        }
+
+        protected void btnScaleno_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TriangoloScaleno.aspx");
+
+        }
+
     }
 }

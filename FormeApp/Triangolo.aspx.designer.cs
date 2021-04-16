@@ -15,31 +15,31 @@ namespace FormeApp
     {
 
         /// <summary>
-        /// Controllo txtLatoTriangolo.
+        /// Controllo btnEquilatero.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLatoTriangolo;
+        protected global::System.Web.UI.WebControls.Button btnEquilatero;
 
         /// <summary>
-        /// Controllo txtAltezzaTriangolo.
+        /// Controllo btnIsoscele.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAltezzaTriangolo;
+        protected global::System.Web.UI.WebControls.Button btnIsoscele;
 
         /// <summary>
-        /// Controllo btnCalcola.
+        /// Controllo btnScaleno.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalcola;
+        protected global::System.Web.UI.WebControls.Button btnScaleno;
 
         /// <summary>
         /// Controllo btnIndietro.
@@ -49,41 +49,5 @@ namespace FormeApp
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnIndietro;
-
-        /// <summary>
-        /// Controllo lblCalcolo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCalcolo;
-
-        /// <summary>
-        /// Controllo lblDimensioni.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDimensioni;
-
-        /// <summary>
-        /// Controllo LatoValidator.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator LatoValidator;
-
-        /// <summary>
-        /// Controllo AltezzaValidator.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator AltezzaValidator;
     }
 }

@@ -1,30 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Triangolo.aspx.cs" Inherits="FormeApp.Triangolo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div runat="server" style="padding-top:10px">
-                <h2 style="text-align:center;font-size:20px">Calcolo dell'area e del perimetro del triangolo</h2>
-    <table><tr style="line-height:3"><td style="font-size:20px;">Inserire il lato del triangolo: </td>
-        <td>
-    <asp:TextBox Height="23px" runat="server" ID="txtLatoTriangolo"></asp:TextBox></td></tr>
-        <tr style="line-height:3"><td style="font-size:20px">Inserire l'altezza del triangolo: </td>
-        <td>
-    <asp:TextBox Height="23px" runat="server" ID="txtAltezzaTriangolo"></asp:TextBox></td></tr>
-        <tr><td>    <asp:Button runat="server" Width="150px" Style="margin-left:20px" ID="btnCalcola" Text="Calcola" OnClick="btnCalcola_Click"/>
-</td>
-        <td>    <asp:Button runat="server" Width="150px" Style="margin-left:350px" CausesValidation="false" ID="btnIndietro" Text="Indietro" OnClick="btnIndietro_Click"/>
-</td></tr>
+                <h2 style="text-align:center;font-size:20px">Scegliere il tipo di triangolo</h2>
+    <table>
+        <tr>
+
+            <td><asp:Button runat="server" Width="150px" Style="margin-left:320px" ID="btnEquilatero" Text="Equilatero" OnClick="btnEquilatero_Click"/></td>
+            <td><asp:Button runat="server" Width="150px" Style="margin-left:20px" ID="btnIsoscele" Text="Isoscele" OnClick="btnIsoscele_Click"/></td>
+            <td><asp:Button runat="server" Width="150px" Style="margin-left:20px" ID="btnScaleno" Text="Scaleno" OnClick="btnScaleno_Click"/></td>
+        </tr>
+       
         </table>
-          <br />
-    <asp:Label ID="lblCalcolo" runat="server"></asp:Label>
         <br />
-        <asp:Label runat="server" ID="lblDimensioni"></asp:Label>
+     <asp:Button runat="server" Width="150px" Style="margin-left:500px;" ID="btnIndietro" Text="Indietro" OnClick="btnIndietro_Click"/>
         </div>
-
-        <asp:RequiredFieldValidator ID="LatoValidator" runat="server"
-            ControlToValidate="txtLatoTriangolo" ErrorMessage="Inserisci il lato" Display="None"
-            ForeColor="Red"></asp:RequiredFieldValidator>
-
-        <asp:RequiredFieldValidator ID="AltezzaValidator" runat="server"
-            ControlToValidate="txtAltezzaTriangolo" ErrorMessage="Inserisci l'altezza" Display="None"
-            ForeColor="Red"></asp:RequiredFieldValidator>
-        <asp:ValidationSummary runat="server" ShowMessageBox="true" ShowSummary="false" />
 </asp:Content>

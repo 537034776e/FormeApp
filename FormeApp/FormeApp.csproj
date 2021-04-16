@@ -156,6 +156,9 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Triangolo.aspx" />
+    <Content Include="TriangoloEquilatero.aspx" />
+    <Content Include="TriangoloIsoscele.aspx" />
+    <Content Include="TriangoloScaleno.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -217,6 +220,27 @@
     </Compile>
     <Compile Include="Triangolo.aspx.designer.cs">
       <DependentUpon>Triangolo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TriangoloEquilatero.aspx.cs">
+      <DependentUpon>TriangoloEquilatero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TriangoloEquilatero.aspx.designer.cs">
+      <DependentUpon>TriangoloEquilatero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TriangoloIsoscele.aspx.cs">
+      <DependentUpon>TriangoloIsoscele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TriangoloIsoscele.aspx.designer.cs">
+      <DependentUpon>TriangoloIsoscele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TriangoloScaleno.aspx.cs">
+      <DependentUpon>TriangoloScaleno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TriangoloScaleno.aspx.designer.cs">
+      <DependentUpon>TriangoloScaleno.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
